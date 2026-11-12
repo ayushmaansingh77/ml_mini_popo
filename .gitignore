@@ -1,0 +1,33 @@
+# Python & environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+.venv/
+
+# Large datasets & raw data
+*.csv
+!fraud_app/sample_transactions.csv
+creditcard.csv
+
+# Models & large training artifacts
+fraud_app/artifacts/models/
+fraud_app/artifacts/*.parquet
+
+# Markdown files (ignore all except README.md)
+*.md
+!README.md
+!**/README.md
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

@@ -1,0 +1,28 @@
+# Python & environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+.venv/
+
+# Large datasets & raw data (preserve demo sample)
+*.csv
+!sample_transactions.csv
+
+# Models & large training artifacts
+artifacts/models/
+artifacts/*.parquet
+
+# Markdown files (ignore all except README.md)
+*.md
+!README.md
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
